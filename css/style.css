@@ -128,20 +128,23 @@ img {
     SOLUZIONE RESPONSIVE
  ************************************************/
  @media screen and (min-width: 768px) {
-     .container {
-         display: flex;
+     .row {
          flex-wrap: wrap;
-         width: 100%;
+        
+        }
+
+        .col{
+            width: 50%;
+            
         }
      }
 
  @media screen and (min-width: 480px) {
-    .container {
-        display: flex;
+    .row {
         flex-wrap: wrap;
     }    
-    .row {
-        width: 100% ;
+    .col {
+        width: 25% ;
     }    
 }    
  
