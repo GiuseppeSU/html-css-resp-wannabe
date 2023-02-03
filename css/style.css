@@ -129,14 +129,11 @@ img {
  ************************************************/
 
 
- @media all and (max-width: 768px) {
-    .container .row{
-        display: flex;
-        flex-wrap: wrap;
+ @media screen and (min-width: 768px) {
 
+    .container{
+        flex-wrap: wrap;
+        width: 75%;
+        margin: auto
     }
-    .col {
-        width: calc(50% - 40px);
-    }
-    
  }
